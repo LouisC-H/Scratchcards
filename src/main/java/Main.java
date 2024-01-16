@@ -51,7 +51,7 @@ public class Main {
             Scanner lineCounter = new Scanner(inputFile);
 
             while (lineCounter.hasNextLine()) {
-                String wholeData = lineCounter.nextLine();
+                lineCounter.nextLine();
 
                 rowCount ++;
             }

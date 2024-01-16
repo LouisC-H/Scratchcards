@@ -1,0 +1,25 @@
+<mxfile host="Electron" modified="2024-01-16T14:15:39.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="LWlbrWEjdB_QZbqdMOHd" version="22.0.0" type="device">
+  <diagram name="Page-1" id="NiJdcn9BkA1Ci90cSp-h">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-1" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Game &quot;&lt;/li&gt;&lt;li&gt;An ID number&lt;/li&gt;&lt;li&gt;&quot;:&quot; &quot;,&quot; or &quot;;&quot;&lt;/li&gt;&lt;li&gt;&quot;X Y&quot; where X is a number and Y is a colour (red, green or blue)&lt;/li&gt;&lt;li&gt;Repeat previous two until a new line is hit&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;If there are never more than than R reds, G greens or B blue, record the ID&amp;nbsp;&lt;/li&gt;&lt;li&gt;Sum all of the ID numbers recorded&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-2" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-3" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-4" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-5" value="Warning" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2024-01-16T14:59:42.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="a6o2TDOrKK2pUxzK-G57" version="22.0.0" type="device">
+  <diagram name="Page-1" id="NiJdcn9BkA1Ci90cSp-h">
+    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-19" value="&amp;nbsp;For each winning number:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-1" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Card X:&quot;&lt;/li&gt;&lt;li&gt;A list of winning numbers separated by spaces&lt;/li&gt;&lt;li&gt;&quot;|&quot;&lt;/li&gt;&lt;li&gt;A list of numbers you have separated by spaces&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;For each winning number on a line that you have, you gain twice the number of points: 0,1,2,4...&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-6" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-7" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-8" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-9" value="Note" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-10" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-12" target="vqGp3Szi3Ta7pN7c1rhM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-12" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-13" target="vqGp3Szi3Ta7pN7c1rhM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-13" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-14" target="vqGp3Szi3Ta7pN7c1rhM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-14" value="Create a rolling sum int, set to 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-15" value="&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-17" value="Separate out winning numbers and number you have" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-18" target="vqGp3Szi3Ta7pN7c1rhM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-18" value="Check the list of numbers you have" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-20" target="vqGp3Szi3Ta7pN7c1rhM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-20" value="If there&#39;s a match, gain one point or double your points if you already have some" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1080" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-22" value="Add your points to the rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1201" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vqGp3Szi3Ta7pN7c1rhM-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-26" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1358" y="200" width="82.5" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,9 +1,15 @@
-<mxfile host="Electron" modified="2024-01-16T14:59:42.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="a6o2TDOrKK2pUxzK-G57" version="22.0.0" type="device">
+<mxfile host="Electron" modified="2024-01-16T15:49:45.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="FNlvraTLSkm-DyExhFHJ" version="22.0.0" type="device">
   <diagram name="Page-1" id="NiJdcn9BkA1Ci90cSp-h">
-    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-27" value="&amp;nbsp;For each copy of the card:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="920" width="760" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-53" value="&amp;nbsp;For each winning number:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="960" width="400" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="vqGp3Szi3Ta7pN7c1rhM-19" value="&amp;nbsp;For each winning number:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="360" width="400" height="160" as="geometry" />
         </mxCell>
@@ -41,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vqGp3Szi3Ta7pN7c1rhM-14" value="Create a rolling sum int, set to 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="480" y="60" width="80" height="80" as="geometry" />
+          <mxGeometry x="480" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vqGp3Szi3Ta7pN7c1rhM-15" value="&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="720" height="160" as="geometry" />
@@ -71,6 +77,86 @@
         </mxCell>
         <mxCell id="vqGp3Szi3Ta7pN7c1rhM-26" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1358" y="200" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-28" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;Card X:&quot;&lt;/li&gt;&lt;li&gt;A list of winning numbers separated by spaces&lt;/li&gt;&lt;li&gt;&quot;|&quot;&lt;/li&gt;&lt;li&gt;A list of numbers you have separated by spaces&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;For each winning number on a line that you have, you gain another copy of the next X scratchcards&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-29" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-30" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-31" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-32" value="Note" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-33" value="Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#FFFFFF;strokeColor=#B09500;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-35" target="vqGp3Szi3Ta7pN7c1rhM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-35" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-37" target="vqGp3Szi3Ta7pN7c1rhM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-37" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-40" value="&amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="1000" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-41" value="Separate out winning numbers and number you have" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-43" target="vqGp3Szi3Ta7pN7c1rhM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-43" value="Check the list of numbers you have" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-45" target="vqGp3Szi3Ta7pN7c1rhM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-45" value="If there&#39;s a match add to a rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-48" value="Print sum of array" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1200" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-49" target="vqGp3Szi3Ta7pN7c1rhM-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1399" y="900" />
+              <mxPoint x="520" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-49" value="Gain another copy of the next X cards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1359.25" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-50" value="Create a rolling sum int, set to 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.576;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-50" target="vqGp3Szi3Ta7pN7c1rhM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-57" target="vqGp3Szi3Ta7pN7c1rhM-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vqGp3Szi3Ta7pN7c1rhM-57" target="vqGp3Szi3Ta7pN7c1rhM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-57" value="Create an array of the numbers of copies of each card" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vqGp3Szi3Ta7pN7c1rhM-58" value="Initially 1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1070" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
